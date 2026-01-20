@@ -21,3 +21,5 @@ service_identity
 backports.ssl_match_hostname
 pyOpenSSL
 Flask
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability

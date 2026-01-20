@@ -22,3 +22,7 @@ torrequest
 pillow==7.2.0
 sploitkit
 dronesploit
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+weasyprint>=68.0 # not directly required, pinned by Snyk to avoid a vulnerability
